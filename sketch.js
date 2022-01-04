@@ -1,5 +1,5 @@
 var points = []
-var mult = 0.05
+var mult = 0.009
 
 var r1
 var r2
@@ -12,7 +12,7 @@ function setup() {
     createCanvas(windowWidth, windowHeight)
     background(10)
     angleMode(DEGREES)
-    noiseDetail(1)
+    noiseDetail(0.5)
 
     var density = 200
     var space = width / density

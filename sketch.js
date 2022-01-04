@@ -12,9 +12,9 @@ function setup() {
     createCanvas(windowWidth, windowHeight)
     background(10)
     angleMode(DEGREES)
-    noiseDetail(0.5)
+    noiseDetail(1)
 
-    var density = 200
+    var density = 250
     var space = width / density
 
     for (var x = 0; x < width; x+= space) {

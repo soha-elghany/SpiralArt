@@ -1,5 +1,5 @@
 var points = []
-var mult = 0.009
+var mult = 0.005
 
 var r1
 var r2
